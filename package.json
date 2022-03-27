@@ -1,0 +1,23 @@
+{
+  "name": "local-food-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaibrittRittermann/local-food-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaibrittRittermann/local-food-node/issues"
+  },
+  "homepage": "https://github.com/MaibrittRittermann/local-food-node#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
