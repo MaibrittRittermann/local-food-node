@@ -19,5 +19,8 @@
   "homepage": "https://github.com/MaibrittRittermann/local-food-node#readme",
   "devDependencies": {
     "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
   }
 }
