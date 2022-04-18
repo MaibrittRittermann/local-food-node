@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/MaibrittRittermann/local-food-node#readme",
   "devDependencies": {
-    "jest": "^27.5.1"
+    "jest": "^27.5.1",
+    "supertest": "^6.2.2"
   },
   "dependencies": {
     "config": "^3.3.7",

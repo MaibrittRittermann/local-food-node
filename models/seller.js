@@ -10,7 +10,7 @@ const Farmer = mongoose.model('Seller', new mongoose.Schema({
     products: [productSchema]
 }));
 
-function validateFarmer(farmer) {
+function validateFarmer(seller) {
     const schema = Joi.object({
       name: Joi.string().min(3).required(),
       address: Joi.string().min(3).required(),
@@ -19,7 +19,7 @@ function validateFarmer(farmer) {
       products: Joi.allow(),
     });
   
-    return schema.validate(farmer);
+    return schema.validate(seller);
   }
   
   module.exports.Farmer = Farmer;
