@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
+  console.log("Test logging in heroku logs with console.log");
   res.send("Hello World");
 });
 
